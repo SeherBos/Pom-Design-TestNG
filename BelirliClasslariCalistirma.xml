@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="istenen Classlar">
+        <test name="class calistirma">
+                <classes>
+                        <class name="com.smokeTest.PositiveLoginTest"></class>
+                        <class name="com.tests.day19.WebTableTekrar"></class>
+                        <class name="com.smokeTest.NegativeTest"></class>
+                </classes>
+        </test>
+</suite>
