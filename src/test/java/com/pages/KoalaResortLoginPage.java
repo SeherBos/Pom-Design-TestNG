@@ -12,11 +12,11 @@ public class KoalaResortLoginPage {
     // ve parametre olarak Webdriver driver yaz
     public KoalaResortLoginPage(WebDriver driver){
 
-        // 3- parametre olarak gelen driver ile bu class'daki driver'i eslestir
+    // 3- parametre olarak gelen driver ile bu class'daki driver'i eslestir
         this.driver=driver;
 
 
-        // 4- PageFactory class'ini kullanarak driver'i initialize yap
+    // 4- PageFactory class'ini kullanarak driver'i initialize yap
         PageFactory.initElements(driver,this);
     }
     @FindBy(linkText = "Log in")
